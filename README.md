@@ -10,9 +10,12 @@ This implementation is used for an exercise of System Engineering 1 course at TU
     $ rethinkdb
 
 2. Start Napster Indexing Server:
+
     $ python3 server.py
 
 3. Start Napster Peers to upload/dowload shared files:
+
     $ python3 client-up.py
+
     $ python3 client-down.py
     
