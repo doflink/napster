@@ -5,15 +5,19 @@ This implementation is used for an exercise of System Engineering 1 course at TU
 
 ### How to run ###
 
-1. Start RethinkDB at Indexing Server:
+1. Install RethinkDB in Indexing Server:
+
+    $ sudo pip install rethinkdb
+
+2. Start RethinkDB at Indexing Server:
 
     $ rethinkdb
 
-2. Start Napster Indexing Server:
+3. Start Napster Indexing Server:
 
     $ python3 server.py
 
-3. Start Napster Peers to upload/dowload shared files:
+4. Start Napster Peers to upload/dowload shared files:
 
     $ python3 client-up.py
 
